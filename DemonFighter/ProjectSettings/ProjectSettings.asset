@@ -11,7 +11,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: yiw162
+  companyName: zhijinwu
   productName: DemonFighter
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -161,7 +161,7 @@ PlayerSettings:
     Android: com.Company.ProductName
     Standalone: unity.Unity Technologies.Native Rendering Plugin Example
     Tizen: com.Company.ProductName
-    iOS: com.yiw162.DemonFighter
+    iOS: com.zhijinwu.DemonFighter
     tvOS: com.Company.ProductName
   buildNumber:
     iOS: 0
@@ -765,12 +765,12 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 7928f16b-ff49-4071-9772-7bc390f01f10
-  projectName: 
+  projectName: DemonFighter (1)
   organizationId: harrywzj
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

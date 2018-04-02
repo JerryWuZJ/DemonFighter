@@ -7,27 +7,27 @@ using UnityEngine.SceneManagement;
 public class GameControllerScript : MonoBehaviour {
 	public GameObject bloodyScreen;
 	public Text healthText;
-	public int health;
+	public static int playerHealth;
 
 	// Use this for initialization
 	void Start () {
-		health = 100;
+		playerHealth = 100;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (health <= 0) {
+		if (playerHealth <= 0) {
 			SceneManager.LoadScene ("GameOver");
 		}
 		
 	}
-
+		
 	public void zombieAttack(bool zombieIsThere){
 		bloodyScreen.gameObject.SetActive (true);
 		StartCoroutine (wait2seconds ());
 
-		health -= 5;
-		string stringHealth = health.ToString ();
+		playerHealth -= 5;
+		string stringHealth = playerHealth.ToString ();
 		healthText.text = "" + stringHealth;
 	}
 
